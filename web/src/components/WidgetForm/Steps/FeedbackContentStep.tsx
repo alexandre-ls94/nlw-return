@@ -7,6 +7,7 @@ import { ScreenshotButton } from '../ScreenshotButton'
 interface IFeedbackContentStepProps {
   feedbackType: FeedbackType
   onFeedbackRestartRequested: () => void
+  onFeedbackSent: () => void
 }
 
 export function FeedbackContentStep(props: IFeedbackContentStepProps) {
@@ -22,6 +23,8 @@ export function FeedbackContentStep(props: IFeedbackContentStepProps) {
       screenshot,
       comment
     })
+
+    props.onFeedbackSent()
   }
 
   return (
