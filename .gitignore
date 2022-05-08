@@ -1,4 +1,5 @@
-server/node_modules
-web/node_modules
 # Keep environment variables out of version control
+server/node_modules
 server/.env
+server/prisma/*.db
+web/node_modules
