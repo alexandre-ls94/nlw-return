@@ -1,5 +1,6 @@
 # Keep environment variables out of version control
 server/node_modules
+server/coverage
 server/.env
 server/prisma/*.db
 web/node_modules
