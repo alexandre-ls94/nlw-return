@@ -1,0 +1,4 @@
+server/node_modules
+web/node_modules
+# Keep environment variables out of version control
+server/.env
