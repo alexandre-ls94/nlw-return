@@ -5,7 +5,7 @@ import { theme } from '../../theme'
 import { styles } from './styles'
 
 interface IScreenshotButtonProps {
-  screenshot: string
+  screenshot: string | null
   onTakeShot: () => void
   onRemoveShot: () => void
 }
